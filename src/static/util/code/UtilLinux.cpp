@@ -370,7 +370,7 @@ uint64 getFreeSpace(const char* path)
 	{
 		UTIL::FS::Path fullP;
 		fullP.m_absolutePath = p.m_absolutePath;
-		
+
 		for (size_t y=0; y<folders.size()-x; y++)
 			fullP += folders[y];
 	
